@@ -1,0 +1,16 @@
+---
+layout: base.njk
+title: Hello World
+---
+
+{% for tweet in github.meeps %}
+                <div class="card shadow mt-3 mx-auto" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ tweet.body }}</h5>
+                        <p class="card-text">{{ tweet.body }}</p>
+                        <footer class="blockquote-footer">
+                            <cite title="date">{{ tweet.created_at }}</cite>
+                        </footer>
+                    </div>
+                </div>
+            {% endfor %}
