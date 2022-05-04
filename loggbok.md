@@ -14,6 +14,6 @@ V. Mån Ons  Fre
 
 # Reflektioner V.18
 ## Vad har du gjort? - Jag hart gjort klart min planering och är 70% klar med figma
-## Vad ska vara klart på fredag? - På fredag ska minst min figma design vara färdig och jag borde ha skapat en databas
+## Vad ska vara klart på fredag? - På fredag ska minst min figma design vara färdig och jag ska ha skapat en databas
 ## Vad behöver du hjälp med? - Ingenting för tillfället
 
