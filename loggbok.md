@@ -6,10 +6,14 @@ V. Mån Ons  Fre
 | 19 | Content Cell  | Content Cell  | Content Cell  |
 | 20 | Content Cell  | Content Cell  | Content Cell  |
 | 21 | Content Cell  | Content Cell  | Content Cell  |
-
-
 17      
 18
 19
 20
 21
+
+# Reflektioner V.18
+## Vad har du gjort? - Jag hart gjort klart min planering och är 70% klar med figma
+## Vad ska vara klart på fredag? - På fredag ska minst min figma design vara färdig och jag borde ha skapat en databas
+## Vad behöver du hjälp med? - Ingenting för tillfället
+
