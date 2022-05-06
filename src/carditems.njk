@@ -1,0 +1,18 @@
+---
+layout: base.njk
+pagination: 
+    data: github.meeps
+    size: 1
+    alias: data
+permalink: "data/{{ data.id | slug }}/"
+---
+<main class="container">
+
+    <header class="rubrik">
+        <h1 class="titel"> {{ data.body }}</h1>
+    </header>
+            <p class="desc"> {{ data.desc }}</p>
+
+            <iframe width="560" height="315" src="{{data.link}}" frameborder="0" allowfullscreen></iframe>
+</main>
+    
