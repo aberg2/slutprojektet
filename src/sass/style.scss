@@ -38,15 +38,25 @@ body {
 .card:hover .middle {
   opacity: 1;
 }
+.text:hover {
+  background-color: black;
+}
 
 .text {
   text-transform: uppercase;
   color: white;
   cursor: pointer;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size: 2rem;
+  padding: 25px 25px;
 }
 .card {
   border: none;
   min-width: 25%;
+}
+a {
+  text-decoration: none;
+}
+.titel {
+  text-transform: uppercase;
+  
 }

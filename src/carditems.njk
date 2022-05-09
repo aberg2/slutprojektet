@@ -6,12 +6,8 @@ pagination:
     alias: data
 permalink: "data/{{ data.body | slug }}/"
 ---
+
 <main class="container">
-
-    <header class="rubrik">
-        <h1 class="titel"> {{ data.body }}</h1>
-    </header>
-            <p class="desc"> {{ data.desc }}</p>
-
+        <h1 class="titel text-center pt-4">{{ data.body }}</h1>
+    <p class="desc text-center ">{{ data.desc }}</p>
 </main>
-    
