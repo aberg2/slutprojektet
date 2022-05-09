@@ -4,7 +4,7 @@ pagination:
     data: github.meeps
     size: 1
     alias: data
-permalink: "data/{{ data.id | slug }}/"
+permalink: "data/{{ data.body | slug }}/"
 ---
 <main class="container">
 
@@ -13,6 +13,5 @@ permalink: "data/{{ data.id | slug }}/"
     </header>
             <p class="desc"> {{ data.desc }}</p>
 
-            <iframe width="560" height="315" src="{{data.link}}" frameborder="0" allowfullscreen></iframe>
 </main>
     
