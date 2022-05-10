@@ -7,7 +7,7 @@ const options = {
 		'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com',
 		'X-RapidAPI-Key': 'cebcf67a84msh9c1af70b7cf022bp1087ecjsnd25814936ef8'
 	}
-};
+};a
 
 
 module.exports = async function () {
