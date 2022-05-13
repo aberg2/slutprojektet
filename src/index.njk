@@ -7,7 +7,7 @@ title: Hello World
 <div class="card-group">
     {% for tweet in github.meeps %}
         <div class="card">
-            <img class="" src="https://picsum.photos/341/341" alt="Card image cap">
+            <img class="" height="253px" src="{{ tweet.cardimg }}" alt="Card image cap">
                 <div class="middle">
                     <a href="data/{{ tweet.body }}">
                         <div class="active allcaps text">{{ tweet.body }}</div>
