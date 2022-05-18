@@ -6,10 +6,13 @@ pagination:
     alias: data
 permalink: "data/{{ data.body | slug }}/"
 ---
-
+<body class="cardbody">
+    
 <main class="container ">
     <h1 class="titel allcaps text-center pt-4">{{ data.body }}</h1>
     <hr>
         <img class="imgcard" height="50% auto" src="{{ data.img }}" alt="">
-            <p class="desc text-center ">{{ data.desc }}</p>
+        <br>
+            <p class="desc cardtext text-center ">{{ data.desc }}</p>
         </main>
+</body>
