@@ -21,3 +21,6 @@ V. Mån Ons  Fre
 Jag skall få min layout att fungera som på figma genom att läsa på hur man flexar cards där det max får vara 4 st på bredden sedan ska den hoppa ner en rad. Jag vill använda mig av en databas för rubriker och liknande för att göra det lättare att upprepa.
 # Planering v.19
 Jag ska få klart min layout och ska fixa min databas. Fixa heroku "internal error" så jag kan uppdatera min api från tidigare med en ny databas så jag inte använder samma. Skapa sidan så att den fungerar som på figma och att de ska automatiskt skapas via pagination enligt en layout och ta info från skol servern.
+
+# Planering v.20
+ Jag ska försöka få in mer funktioner på min hemsida, fixa till en annan online api kanske.
