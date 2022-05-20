@@ -6,7 +6,8 @@ title: Hello World
 {% include "components/landing.njk" %}
 <div class="card-group">
     {% for tweet in meeps.meeps %}
-        <div class="card">
+        <div class="card content">
+            <div class="content-overlay"></div>
             <img class="" height="253px" src="{{ tweet.cardimg }}" alt="Card image cap">
                 <div class="middle">
                     <a href="data/{{ tweet.body }}">
@@ -14,11 +15,5 @@ title: Hello World
                     </a>
                 </div>
             </div>
-        {% endfor %}
-    </div>
-
-    <div class="card-group">
-    {% for maps in football.lines %}
-                    <div class="active allcaps text">{{ maps.name }}</div>
         {% endfor %}
     </div>

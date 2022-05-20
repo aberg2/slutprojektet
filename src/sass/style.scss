@@ -61,7 +61,6 @@ body {
   transform: translate(-50%, -50%);
 }
 .rubrik{
-  font-size: 6.5rem;
   font-weight: 500;
   font-family: "Source Code Pro", monospace  ;
   text-align: center;
@@ -98,6 +97,39 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+  cursor: pointer;
+}
+.mapcard{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 hr {
   border-top: 1.5px solid #e5d4ed;

@@ -1,13 +1,17 @@
 ---
 layout: base.njk
 ---
-{% for maps in lines.football %}
-    <main class="container ">
-        <h1 class="titel allcaps text-center pt-4">{{ maps.name  }}</h1>
-        <hr>
-            <img class="imgcard" height="50% auto" src="{{ data.img }}" alt="">
-                <br>
-                    <p class="desc cardtext text-center ">{{ data.desc }}</p>
-                </main>
 
-{% endfor %}
+<body class="bg-dark">
+    <p class="text-center titel">Maps are sorted by price</p>
+    
+    {% for maps in football.lines %}
+        <main class="container ">
+            <h3 class="titel allcaps text-center pt-4">{{ maps.name }} - Tier {{maps.mapTier}}</h3>
+            <hr>
+                <img class="mapcard" src="{{ maps.icon }}" alt="">
+                    <br>
+                        <p class="desc cardtext text-center ">{{ maps.chaosValue }} kaos</p>
+                    </main>
+                {% endfor %}
+            </body>
