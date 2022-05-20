@@ -1,18 +1,13 @@
 ---
 layout: base.njk
-pagination: 
-    data: meeps.meeps
-    size: 1
-    alias: data
-permalink: "data/{{ data.body | slug }}/"
 ---
-
-<body class="cardbody">
+{% for maps in lines.football %}
     <main class="container ">
-        <h1 class="titel allcaps text-center pt-4">{{ data.body }}</h1>
+        <h1 class="titel allcaps text-center pt-4">{{ maps.name  }}</h1>
         <hr>
             <img class="imgcard" height="50% auto" src="{{ data.img }}" alt="">
                 <br>
                     <p class="desc cardtext text-center ">{{ data.desc }}</p>
                 </main>
-            </body>
+
+{% endfor %}

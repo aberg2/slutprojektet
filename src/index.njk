@@ -2,9 +2,10 @@
 layout: base.njk
 title: Hello World
 ---
+
 {% include "components/landing.njk" %}
 <div class="card-group">
-    {% for tweet in github.meeps %}
+    {% for tweet in meeps.meeps %}
         <div class="card">
             <img class="" height="253px" src="{{ tweet.cardimg }}" alt="Card image cap">
                 <div class="middle">
@@ -13,5 +14,11 @@ title: Hello World
                     </a>
                 </div>
             </div>
+        {% endfor %}
+    </div>
+
+    <div class="card-group">
+    {% for maps in football.lines %}
+                    <div class="active allcaps text">{{ maps.name }}</div>
         {% endfor %}
     </div>
