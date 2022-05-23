@@ -34,6 +34,7 @@
     "pagination": "^0.4.6",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
+    "nunjucks": "^3.2.3",
     "sass": "^1.49.7"
   },
   "browserslist": [
