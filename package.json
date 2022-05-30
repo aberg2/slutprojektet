@@ -3,13 +3,17 @@
   "version": "1.4.0",
   "description": "Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.",
   "main": "index.html",
+  "engines": {
+    "node": "~14"
+    
+},
   "scripts": {
     "watch:sass": "sass  --no-source-map --watch src/sass:public/css",
     "watch:eleventy": "eleventy --serve",
     "build:sass": "sass  --no-source-map src/sass:public/css",
     "build:eleventy": "eleventy",
     "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map",
-    "start": "npm-run-all build:sass --parallel watch:*",
+    "start": "npm-run-all build:sass --parallel watch:*" ,
     "build": "npm-run-all build:sass build:eleventy"
   },
   "repository": {
@@ -34,6 +38,7 @@
     "pagination": "^0.4.6",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
+    "nunjucks": "^3.2.3",
     "sass": "^1.49.7"
   },
   "browserslist": [
