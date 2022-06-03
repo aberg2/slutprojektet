@@ -1,7 +1,7 @@
 
 ## Planering
 
-Min tanke om projektet är att jag ska använda mig av olika databaser och api:er. Databasen kommer va via NTI servern som vi använt tidigare och api:en kommer från tidigare heroku projekt då vi gjorde en egen. Och även från online apis om jag hinner.
+Min tanke om projektet är att jag ska använda mig av olika databaser och api:er. Databasen kommer va via NTI servern som vi använt tidigare och api:en kommer från tidigare heroku projekt då vi gjorde en egen. Och även från online apis om jag hinner. Navbar ska innehålla Home, about och contact
 
 Databasen ska innehålla titel, bild länkar, videolänkar om olika sevärdheter / länder. Detta för att jag ska kunna fetcha innehållet och bygga sidan med hjälp av pagination utifrån. Det gör det simpelt att lägga till nya saker tror jag.
 
