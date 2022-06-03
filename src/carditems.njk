@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+title: "Top10.com"
 pagination: 
     data: meeps.meeps
     size: 1
@@ -11,7 +12,7 @@ permalink: "data/{{ data.body | slug }}/"
     <main class="container ">
         <h1 class="titel allcaps text-center pt-4">{{ data.body }}</h1>
         <hr>
-            <img class="imgcard" height="50% auto" src="{{ data.img }}" alt="">
+            <img class="imgcard" height="50% auto" src="{{ data.img }}" alt="{{data.body}}">
                 <br>
                     <p class="desc cardtext text-center ">{{ data.desc }}</p>
                 </main>

@@ -7,7 +7,7 @@
     {% for tweet in meeps.meeps %}
         <div class="card content">
             <div class="content-overlay"></div>
-            <img class="" height="253" src="{{ tweet.cardimg }}" alt="Card image cap">
+            <img class="" height="253" src="{{ tweet.cardimg }}" alt="{{tweet.body}}">
                 <div class="middle">
                     <a href="data/{{ tweet.body }}">
                         <div class="active allcaps text">{{ tweet.body }}</div>
